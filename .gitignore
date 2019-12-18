@@ -1,1 +1,5 @@
-node
+.DS_store
+node_modules
+package.json
+yarn.lock
+.prettierrc.json
