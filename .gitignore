@@ -4,3 +4,5 @@ package.json
 yarn.lock
 .prettierrc.json
 .gitignore
+index.js
+.gitignore
