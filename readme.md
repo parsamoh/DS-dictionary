@@ -1,4 +1,4 @@
-# Dictinery with trie data sturcuture
+# trie data sturcuture
 
 This is a little project for data structure students
 
@@ -65,4 +65,4 @@ add persian to english dictionary [ ]
 
 the data you need to work on is accessible in two JSON and CSV format.
 
-[data.zip]: (./data.zip)
+[Data.zip](https://github.com/parsamoh/DS-dictionary/raw/master/data.zip) 
