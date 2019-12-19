@@ -65,4 +65,4 @@ add persian to english dictionary [ ]
 
 the data you need to work on is accessible in two JSON and CSV format.
 
-[Data.zip](https://github.com/parsamoh/DS-dictionary/raw/master/data.zip) 
+[Data.zip](https://github.com/parsamoh/DS-dictionary/raw/master/data.zip)
