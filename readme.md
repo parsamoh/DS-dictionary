@@ -1,20 +1,22 @@
-# پروژه پایانی ساختمان داده
+# 1. Dictinery with trie data sturcuture
 
-## فهرست مطالب
+This is a little project for data structure students
 
-[TOC]
+## 1.1. 💾 Table of contents
 
-## موضوع پروژه
+<!-- TOC -->autoauto- [1. Dictinery with trie data sturcuture](#1-dictinery-with-trie-data-sturcuture)auto    - [1.1. 💾 Table of contents](#11-💾-table-of-contents)auto    - [1.2. ⛩About](#12-⛩about)auto    - [1.3. 🎯Parts of solution](#13-🎯parts-of-solution)auto        - [1.3.1. 🎗Hint](#131-🎗hint)auto    - [1.4. 🔗 Links](#14-🔗-links)auto    - [1.5. ⭐️Additional score](#15-⭐️additional-score)auto    - [1.6. 📦Data](#16-📦data)autoauto<!-- /TOC -->[TOC]
 
-میخواهیم دیکشنری ای انگلیسی به فارسی بسازیم، به شکلی که یک ورودی داشته باشد که به هنگام تایپ کردن کلمه مورد نظر در هر لحظه نزدیک ترین کلمات ممکن را به همراه معنی آن نمایش دهد.
+## 1.2. ⛩About
 
-![Mobile](./Mobile.jpg)
+we want to make a straightforward English to Persian dictionary that uses the trie data structure for saving data and finding them.
 
-## روش حل
+![Mobile](/Users/parsa199/study/dictionery/Mobile.jpg)
 
-دیتایی به شکل زیر در قالب فایل json به شما داده میشود. ابتدا شما باید این ورودی را در داده ساختار trie ذخیره کنید، پس از آن با کمک یک listener روی ورودی search هر زمان که حرف جدید وارد شد با حرکت کردن رو درخت tire میتوان کلمات مورد نظر ر ا پیدا کرد.
+## 1.3. 🎯Parts of solution
 
-### نکته :‌ استفاده از کتابخانه های آماده غیر مجاز است.
+First of all, you have to add words in the JSON file to a **trie Data structure** .then you should use a listener on your input text-box whenever somebody adds a letter you have to move on trie tree and print nearest nodes that their isEndOfWord flag is true.
+
+🚨 Alert: using 3rd-party libraries is not allowed.
 
 ```json
 [
@@ -34,23 +36,26 @@
     "english": "a la garconne",
     "farsi": "آلاگارسن"
   }
-  ...
+  //...
 ]
 ```
 
-### راهنمایی
+### 1.3.1. 🎗Hint
 
-میتوان در هر راس trie علاوه بر isEndOfWord یک متغییر دیگر هم نگه داشت که معنی آن کلمه که به آن رسیده ایم است.
+All of them are exactly like a simple trie tree. You need to add a variable for saving the meaning of the word if its isEndOfWord flag is true.
 
-## نمره اضافی
+## 1.4. 🔗 Links
 
-دیکشنری شما علاوه بر انگلیسی به فارسی از فارسی به انگلیسی نیز پشتیبانی کند.
+[https://en.wikipedia.org/wiki/Trie](https://en.wikipedia.org/wiki/Trie)
 
+https://www.geeksforgeeks.org/trie-insert-and-search/
 
+## 1.5. ⭐️Additional score
 
-##  دیتای مورد نیاز
+add persian to english dictionary [ ]
 
-دیتای مورد نیاز در دو فرمت csv و json در اختیار شما قرار گرفته است.
+## 1.6. 📦Data
 
-[data.csv]: ./data.zip
+the data you need to work on is accessible in two JSON and CSV format.
 
+[data.zip]: ./data.zip
